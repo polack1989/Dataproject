@@ -1,5 +1,6 @@
 import xlsxwriter
-from organizeCrawlerData import *
+from organizeCrawlerData import create_full_clean_transports_json
+from const import *
 
 transport_array = create_full_clean_transports_json()
 
