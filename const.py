@@ -7,4 +7,3 @@ price_key = "price"
 type_key = "type"
 dest_country_key = "DestCountry"
 orig_country_key = "OrigCountry"
-i = 5
