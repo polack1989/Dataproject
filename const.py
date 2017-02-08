@@ -1,0 +1,9 @@
+orig_Team_key = "OrigTeam"
+player_Name_key = "playerName"
+year_key = "year"
+price_Status_key = "priceStatus" # this key will be remove
+dest_Team_key = "DestTeam"
+price_key = "price"
+type_key = "type"
+dest_country_key = "DestCountry"
+orig_country_key = "OrigCountry"
