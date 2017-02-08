@@ -52,8 +52,6 @@ def check_price_type(price):
     return [type, price_amount]
 
 
-
-
 def get_all_crawler_transfer():
     for transfers_year_file_path in all_years_files_path:
         year, path = transfers_year_file_path
@@ -62,13 +60,12 @@ def get_all_crawler_transfer():
         for key in sorted(all_transfer):
             yield key, all_transfer[key], year
 
-def add_player_name_and_year(key_transfer):
-    player_name, transfer, year = key_transfer
+
+def add_player_name_and_year(transfer_tuple):
+    player_name, transfer, year = transfer_tuple
     transfer["playerName"] = player_name
     transfer["year"] = year
     return transfer
-
-
 
 
 def clean_string(transfer):
@@ -105,16 +102,26 @@ def clean_string(transfer):
         transfer[string_value_key] = str_value
 
 
+
 def add_country(transfer):
-    transfer[orig_country_key] = None
-    transfer[dest_country_key] = None
+    #remove when polack done
+    if (transfer[orig_Team_key] in teams_dic.keys()):
+        transfer[orig_country_key] = teams_dic[transfer[orig_Team_key]][1]
+    else:
+        transfer[orig_country_key] = None
+
+    if (transfer[dest_Team_key] in teams_dic.keys()):
+        transfer[dest_country_key] = teams_dic[transfer[dest_Team_key]][1]
+    else:
+        transfer[dest_country_key] = None
+
 
 
 
 def create_full_clean_transports_json():
     transport_array = []
-    for key_transfer in get_all_crawler_transfer():
-        transfer = add_player_name_and_year(key_transfer)
+    for transfer_tuple in get_all_crawler_transfer():
+        transfer = add_player_name_and_year(transfer_tuple)
         clean_string(transfer)
         add_price(transfer)
         add_country(transfer)
@@ -127,25 +134,7 @@ def create_full_clean_transports_json():
     return transport_array
 
 
-def get_all_lists(transfer_array):
-    players = set()
-    teams = set()
-    countries = set()
-    for transfer in transfer_array:
-        players.add(transfer[player_Name_key])
-        teams.add(transfer[orig_Team_key])
-        teams.add(transfer[dest_Team_key])
-
-    print(len(transfer_array))
-    print(len(players))
-    print(len(teams))
-    #
-    # print(players)
-    for team in sorted(teams):
-         print team
-
-    # for plaer in sorted(players):
-    #     print plaer
 
 if __name__ == "__main__":
-    get_all_lists(create_full_clean_transports_json())
+    (create_full_clean_transports_json())
+
