@@ -1,0 +1,902 @@
+{
+    "Sadio Mane": {
+        "OrigTeam": "Southampton", 
+        "priceStatus": "41million", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Patrick Bamford": {
+        "OrigTeam": "Chelsea", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Burnley"
+    }, 
+    "Jose Fonte": {
+        "OrigTeam": "Southampton", 
+        "priceStatus": "9.2million", 
+        "DestTeam": "West Ham"
+    }, 
+    "Sofiane Feghouli": {
+        "OrigTeam": "Valencia", 
+        "priceStatus": "Free", 
+        "DestTeam": "West Ham"
+    }, 
+    "Joel Matip": {
+        "OrigTeam": "Schalke", 
+        "priceStatus": "Free", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Ryan Mason": {
+        "OrigTeam": "Tottenham", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Hull"
+    }, 
+    "Emerson Hyndman": {
+        "OrigTeam": "Fulham", 
+        "priceStatus": "Free", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "David Marshall": {
+        "OrigTeam": "Cardiff", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Hull"
+    }, 
+    "Yangel Herrera": {
+        "OrigTeam": "Atletico Venezuela", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Ashley Williams": {
+        "OrigTeam": "Swansea", 
+        "priceStatus": "14million", 
+        "DestTeam": "Everton"
+    }, 
+    "Tom Cleverley": {
+        "OrigTeam": "Everton", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Watford"
+    }, 
+    "Dominic Calvert-Lewin": {
+        "OrigTeam": "Sheffield Utd", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Everton"
+    }, 
+    "Robert Snodgrass": {
+        "OrigTeam": "Hull", 
+        "priceStatus": "12million", 
+        "DestTeam": "West Ham"
+    }, 
+    "Lazar Markovic": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Georges-Kevin N'Koudou": {
+        "OrigTeam": "Marseille", 
+        "priceStatus": "11million", 
+        "DestTeam": "Tottenham"
+    }, 
+    "Jason Denayer": {
+        "OrigTeam": "Manchester City", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Joleon Lescott": {
+        "OrigTeam": "AEK Athens", 
+        "priceStatus": "Free", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Jack Wilshere": {
+        "OrigTeam": "Arsenal", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Allan Nyom": {
+        "OrigTeam": "Watford", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "West Brom"
+    }, 
+    "Aaron Mooy": {
+        "OrigTeam": "Melbourne City", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Joey Barton": {
+        "OrigTeam": "Rangers", 
+        "priceStatus": "Free", 
+        "DestTeam": "Burnley"
+    }, 
+    "Martin Olsson": {
+        "OrigTeam": "Norwich", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Swansea"
+    }, 
+    "Johann Gudmundsdon": {
+        "OrigTeam": "Charlton", 
+        "priceStatus": "3million", 
+        "DestTeam": "Burnley"
+    }, 
+    "Robbie Brady": {
+        "OrigTeam": "Norwich", 
+        "priceStatus": "15.1million", 
+        "DestTeam": "Burnley"
+    }, 
+    "Simone Zaza": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "Loan", 
+        "DestTeam": "West Ham"
+    }, 
+    "Havard Nordtveit": {
+        "OrigTeam": "Bor. Mgladbach", 
+        "priceStatus": "Free", 
+        "DestTeam": "West Ham"
+    }, 
+    "Markus Henriksen": {
+        "OrigTeam": "AZ Alkmaar", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Darron Gibson": {
+        "OrigTeam": "Everton", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Brad Smith": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "3.6million", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Ilkay Gundogan": {
+        "OrigTeam": "Bor. Dortmund", 
+        "priceStatus": "25.8million", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Islam Slimani": {
+        "OrigTeam": "Sporting CP", 
+        "priceStatus": "34million", 
+        "DestTeam": "Leicester"
+    }, 
+    "Granit Xhaka": {
+        "OrigTeam": "Bor. Mgladbach", 
+        "priceStatus": "45million", 
+        "DestTeam": "Arsenal"
+    }, 
+    "Marten de Roon": {
+        "OrigTeam": "Atalanta", 
+        "priceStatus": "14.25million", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Younes Kaboul": {
+        "OrigTeam": "Sunderland", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Watford"
+    }, 
+    "Borja Baston": {
+        "OrigTeam": "Atletico Madrid", 
+        "priceStatus": "18million", 
+        "DestTeam": "Swansea"
+    }, 
+    "Andros Townsend": {
+        "OrigTeam": "Newcastle", 
+        "priceStatus": "15.5million", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Matt Phillips": {
+        "OrigTeam": "QPR", 
+        "priceStatus": "6.5million", 
+        "DestTeam": "West Brom"
+    }, 
+    "Nolito": {
+        "OrigTeam": "Celta", 
+        "priceStatus": "18million", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Sofiane Boufal": {
+        "OrigTeam": "Lille", 
+        "priceStatus": "20million", 
+        "DestTeam": "Southampton"
+    }, 
+    "Takuma Asano": {
+        "OrigTeam": "Hiroshima", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Arsenal"
+    }, 
+    "Sam Brotherton": {
+        "OrigTeam": "Wiskonsin Badgers", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Enner Valencia": {
+        "OrigTeam": "West Ham", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Everton"
+    }, 
+    "Ahmed Musa": {
+        "OrigTeam": "CSKA Moscow", 
+        "priceStatus": "18million", 
+        "DestTeam": "Leicester"
+    }, 
+    "Daryl Janmaat": {
+        "OrigTeam": "Newcastle", 
+        "priceStatus": "8.8million", 
+        "DestTeam": "Watford"
+    }, 
+    "Saido Berahino": {
+        "OrigTeam": "West Brom", 
+        "priceStatus": "13.9million", 
+        "DestTeam": "Stoke"
+    }, 
+    "Raul Uche": {
+        "OrigTeam": "Rayo Vallecano", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Leicester"
+    }, 
+    "Steve Mandanda": {
+        "OrigTeam": "Marseille", 
+        "priceStatus": "Free", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Nampalys Mendy": {
+        "OrigTeam": "Nice", 
+        "priceStatus": "15million", 
+        "DestTeam": "Leicester"
+    }, 
+    "Patrick van Aanholt": {
+        "OrigTeam": "Sunderland", 
+        "priceStatus": "11.8million", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Antonio Barragan": {
+        "OrigTeam": "Valencia", 
+        "priceStatus": "3.6million", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Molla Wague": {
+        "OrigTeam": "Granada", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Leicester"
+    }, 
+    "Shkodran Mustafi": {
+        "OrigTeam": "Valencia", 
+        "priceStatus": "41million", 
+        "DestTeam": "Arsenal"
+    }, 
+    "James Weir": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Hull"
+    }, 
+    "Gabriel Jesus": {
+        "OrigTeam": "Palmeiras", 
+        "priceStatus": "32million", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Pierre-Emile Hojbjerg": {
+        "OrigTeam": "Bayern Munich", 
+        "priceStatus": "15million", 
+        "DestTeam": "Southampton"
+    }, 
+    "Ragnar Klavan": {
+        "OrigTeam": "Augsburg", 
+        "priceStatus": "5million", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Mika Domingues": {
+        "OrigTeam": "Boavista", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Raheem Sterling": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "\u20ac70M", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Joe Allen": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "15.5million", 
+        "DestTeam": "Stoke"
+    }, 
+    "Donald Love": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Nathan Ake": {
+        "OrigTeam": "Chelsea", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Bartosz Kapustka": {
+        "OrigTeam": "Cracovia", 
+        "priceStatus": "9million", 
+        "DestTeam": "Leicester"
+    }, 
+    "Mauro Zarate": {
+        "OrigTeam": "Fiorentina", 
+        "priceStatus": "2.75million", 
+        "DestTeam": "Watford"
+    }, 
+    "Alvaro Negredo": {
+        "OrigTeam": "Valencia", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Andrea Ranocchia": {
+        "OrigTeam": "Inter Milan", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Alex McCarthy": {
+        "OrigTeam": "Crystal Palace", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Southampton"
+    }, 
+    "Rob Holding": {
+        "OrigTeam": "Bolton", 
+        "priceStatus": "2.4million", 
+        "DestTeam": "Arsenal"
+    }, 
+    "Luciano Narsingh": {
+        "OrigTeam": "PSV Eindhoven", 
+        "priceStatus": "4.6million", 
+        "DestTeam": "Swansea"
+    }, 
+    "Viktor Fischer": {
+        "OrigTeam": "Ajax", 
+        "priceStatus": "4.85million", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Evandro": {
+        "OrigTeam": "FC Porto", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Hull"
+    }, 
+    "Javier Manquillo": {
+        "OrigTeam": "Atletico Madrid", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Henrikh Mkhitaryan": {
+        "OrigTeam": "Bor. Dortmund", 
+        "priceStatus": "30million", 
+        "DestTeam": "Manchester Utd"
+    }, 
+    "Aaron Ramsdale": {
+        "OrigTeam": "Sheffield United", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Nathan Redmond": {
+        "OrigTeam": "Norwich", 
+        "priceStatus": "13.5million", 
+        "DestTeam": "Southampton"
+    }, 
+    "Anton Donkor": {
+        "OrigTeam": "Wolfsburg", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Everton"
+    }, 
+    "Adrian Mariappa": {
+        "OrigTeam": "Crystal Palace", 
+        "priceStatus": "Free", 
+        "DestTeam": "Watford"
+    }, 
+    "Brad Guzan": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "Free", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Paul Pogba": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "\u20ac105M", 
+        "DestTeam": "Manchester United"
+    }, 
+    "Michy Batshuayi": {
+        "OrigTeam": "Marseille", 
+        "priceStatus": "40million", 
+        "DestTeam": "Chelsea"
+    }, 
+    "Fabio Da Silva": {
+        "OrigTeam": "Cardiff", 
+        "priceStatus": "2.4million", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Cameron McJannett": {
+        "OrigTeam": "Luton Town", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Stoke"
+    }, 
+    "Rudy Gestede": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "7.5million", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Georginio Wijnaldum": {
+        "OrigTeam": "Newcastle", 
+        "priceStatus": "30million", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Claudio Bravo": {
+        "OrigTeam": "Barcelona", 
+        "priceStatus": "18million", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Stefano Okaka": {
+        "OrigTeam": "Anderlecht", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Watford"
+    }, 
+    "Ashley Westwood": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "5.8million", 
+        "DestTeam": "Burnley"
+    }, 
+    "Lee Grant": {
+        "OrigTeam": "Derby", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Stoke"
+    }, 
+    "Mouez Hassen": {
+        "OrigTeam": "Nice", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Southampton"
+    }, 
+    "Alfie Mawson": {
+        "OrigTeam": "Barnsley", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Swansea"
+    }, 
+    "Marc Wilson": {
+        "OrigTeam": "Stoke", 
+        "priceStatus": "2.4million", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Calum Chambers": {
+        "OrigTeam": "Arsenal", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Wilfred Ndidi": {
+        "OrigTeam": "Genk", 
+        "priceStatus": "17.5million", 
+        "DestTeam": "Leicester"
+    }, 
+    "Nathan Holland": {
+        "OrigTeam": "Everton", 
+        "priceStatus": "Free", 
+        "DestTeam": "West Ham"
+    }, 
+    "Adnan Januzaj": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Oumar Niasse": {
+        "OrigTeam": "Everton", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Omar Elabdellaoui": {
+        "OrigTeam": "Olympiacos", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Fernando Llorente": {
+        "OrigTeam": "Sevilla", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Swansea"
+    }, 
+    "Pau Lopez": {
+        "OrigTeam": "Espanyol", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Tottenham"
+    }, 
+    "Eduardo": {
+        "OrigTeam": "Dinamo Zagreb", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Chelsea"
+    }, 
+    "Brice Dja Djedje": {
+        "OrigTeam": "Marseille", 
+        "priceStatus": "3.5million", 
+        "DestTeam": "Watford"
+    }, 
+    "Lys Mousset": {
+        "OrigTeam": "Le Havre", 
+        "priceStatus": "6.5million", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "James Tomkins": {
+        "OrigTeam": "West Ham", 
+        "priceStatus": "12million", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Adlene Guedioura": {
+        "OrigTeam": "Watford", 
+        "priceStatus": "4.6million", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Kenedy": {
+        "OrigTeam": "Chelsea", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Watford"
+    }, 
+    "Jerome Sinclair": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "Free", 
+        "DestTeam": "Watford"
+    }, 
+    "Kelechi Nwakali": {
+        "OrigTeam": "Diamond Academy", 
+        "priceStatus": "3.8million", 
+        "DestTeam": "Arsenal"
+    }, 
+    "Marcos Alonso": {
+        "OrigTeam": "Fiorentina", 
+        "priceStatus": "27million", 
+        "DestTeam": "Chelsea"
+    }, 
+    "Jordan Ayew": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "5.8million", 
+        "DestTeam": "Swansea"
+    }, 
+    "Victor Wanyama": {
+        "OrigTeam": "Southampton", 
+        "priceStatus": "14.4million", 
+        "DestTeam": "Tottenham"
+    }, 
+    "Hal Robson-Kanu": {
+        "OrigTeam": "Reading", 
+        "priceStatus": "Free", 
+        "DestTeam": "West Brom"
+    }, 
+    "Luka Milivojevic": {
+        "OrigTeam": "Olympiacos", 
+        "priceStatus": "12.8million", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Ramadan Sobhi": {
+        "OrigTeam": "Al Ahly", 
+        "priceStatus": "5million", 
+        "DestTeam": "Stoke"
+    }, 
+    "Cohen Bramall": {
+        "OrigTeam": "Hednesford Town", 
+        "priceStatus": "46,000", 
+        "DestTeam": "Arsenal"
+    }, 
+    "Papy Djilobodji": {
+        "OrigTeam": "Chelsea", 
+        "priceStatus": "9.5million", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Anthony Martial": {
+        "OrigTeam": "Monaco", 
+        "priceStatus": "\u20ac46M", 
+        "DestTeam": "Manchester United"
+    }, 
+    "Jon Flanagan": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Burnley"
+    }, 
+    "Ashley Fletcher": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "Free", 
+        "DestTeam": "West Ham"
+    }, 
+    "Adama Traore": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "John Stones": {
+        "OrigTeam": "Everton", 
+        "priceStatus": "\u20ac55.6M", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Idrissa Gueye": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "8.5million", 
+        "DestTeam": "Everton"
+    }, 
+    "Didier Ndong": {
+        "OrigTeam": "Lorient", 
+        "priceStatus": "16million", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Dieumerci Mbokani": {
+        "OrigTeam": "Dynamo Kiev", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Marlos Moreno": {
+        "OrigTeam": "Atletico Nacional", 
+        "priceStatus": "5.7million", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Victor Anichebe": {
+        "OrigTeam": "West Brom", 
+        "priceStatus": "Free", 
+        "DestTeam": "Sunderland"
+    }, 
+    "David Luiz": {
+        "OrigTeam": "PSG", 
+        "priceStatus": "40million", 
+        "DestTeam": "Chelsea"
+    }, 
+    "Christian Kabasele": {
+        "OrigTeam": "Genk", 
+        "priceStatus": "7million", 
+        "DestTeam": "Watford"
+    }, 
+    "Bryan Oviedo": {
+        "OrigTeam": "Everton", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Jeremy Pied": {
+        "OrigTeam": "Nice", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Southampton"
+    }, 
+    "Lewis Cook": {
+        "OrigTeam": "Leeds", 
+        "priceStatus": "7million", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Roberto Pereyra": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "15million", 
+        "DestTeam": "Watford"
+    }, 
+    "Oleksandr Zinchenko": {
+        "OrigTeam": "FC Ufa", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Eric Bailly": {
+        "OrigTeam": "Villarreal", 
+        "priceStatus": "38.3million", 
+        "DestTeam": "Manchester Utd"
+    }, 
+    "Mark Birighitti": {
+        "OrigTeam": "Newcastle Jets", 
+        "priceStatus": "Free", 
+        "DestTeam": "Swansea"
+    }, 
+    "Mamadou Sakho": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Jeff Hendrick": {
+        "OrigTeam": "Derby", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Burnley"
+    }, 
+    "Loic Remy": {
+        "OrigTeam": "Chelsea", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Mathieu Flamini": {
+        "OrigTeam": "Arsenal", 
+        "priceStatus": "Free", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Wilfried Bony": {
+        "OrigTeam": "Manchester City", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Stoke"
+    }, 
+    "Juan Zuniga": {
+        "OrigTeam": "Napoli", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Watford"
+    }, 
+    "Lucas Perez": {
+        "OrigTeam": "Dep. La Coruna", 
+        "priceStatus": "20million", 
+        "DestTeam": "Arsenal"
+    }, 
+    "N'Golo Kante": {
+        "OrigTeam": "Leicester", 
+        "priceStatus": "36million", 
+        "DestTeam": "Chelsea"
+    }, 
+    "Toni Martinez": {
+        "OrigTeam": "Valencia", 
+        "priceStatus": "3million", 
+        "DestTeam": "West Ham"
+    }, 
+    "Jordon Ibe": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "18million", 
+        "DestTeam": "Bournemouth"
+    }, 
+    "Jeffrey Schlupp": {
+        "OrigTeam": "Leicester City", 
+        "priceStatus": "13.8million", 
+        "DestTeam": "Crystal Palace"
+    }, 
+    "Arthur Masuaku": {
+        "OrigTeam": "Olympiakos", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "West Ham"
+    }, 
+    "Vincent Janssen": {
+        "OrigTeam": "AZ Alkmaar", 
+        "priceStatus": "20.5million", 
+        "DestTeam": "Tottenham"
+    }, 
+    "Paddy McNair": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Sunderland"
+    }, 
+    "Isaac Success": {
+        "OrigTeam": "Granada", 
+        "priceStatus": "11million", 
+        "DestTeam": "Watford"
+    }, 
+    "Jake Livermore": {
+        "OrigTeam": "Hull ", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "West Brom"
+    }, 
+    "Leroy Fer": {
+        "OrigTeam": "QPR", 
+        "priceStatus": "5.6million", 
+        "DestTeam": "Swansea"
+    }, 
+    "Jonathan Calleri": {
+        "OrigTeam": "Deportivo Maldonado", 
+        "priceStatus": "Loan", 
+        "DestTeam": "West Ham"
+    }, 
+    "Kevin De Bruyne": {
+        "OrigTeam": "Wolfsburg", 
+        "priceStatus": "\u20ac74.5M", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Alfred N'Diaye": {
+        "OrigTeam": "Villarreal", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Hull"
+    }, 
+    "Carlos Tevez": {
+        "OrigTeam": "Manchester United", 
+        "priceStatus": "\u20ac53M", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Bruno Martins Indi": {
+        "OrigTeam": "FC Porto", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Stoke "
+    }, 
+    "Kamil Grosicki": {
+        "OrigTeam": "Stade Rennais", 
+        "priceStatus": "9million", 
+        "DestTeam": "Hull"
+    }, 
+    "Loris Karius": {
+        "OrigTeam": "FC Koln", 
+        "priceStatus": "6.1million", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Ademola Lookman": {
+        "OrigTeam": "Charlton", 
+        "priceStatus": "8.75million", 
+        "DestTeam": "Everton"
+    }, 
+    "Yannick Bolasie": {
+        "OrigTeam": "Crystal Palace", 
+        "priceStatus": "30million", 
+        "DestTeam": "Everton"
+    }, 
+    "Victor Valdes": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "Free", 
+        "DestTeam": "Middlesbrough"
+    }, 
+    "Alex Manninger": {
+        "OrigTeam": "Augsburg", 
+        "priceStatus": "Free", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Leroy Sane": {
+        "OrigTeam": "Schalke", 
+        "priceStatus": "\u20ac50M", 
+        "DestTeam": "Manchester City"
+    }, 
+    "Andre Ayew": {
+        "OrigTeam": "Swansea", 
+        "priceStatus": "24million", 
+        "DestTeam": "West Ham"
+    }, 
+    "Christian Benteke": {
+        "OrigTeam": "Aston Villa", 
+        "priceStatus": "\u20ac46.5M", 
+        "DestTeam": "Liverpool"
+    }, 
+    "Edimilson Fernandes": {
+        "OrigTeam": "Sion", 
+        "priceStatus": "7million", 
+        "DestTeam": "West Ham"
+    }, 
+    "Mesut Ozil": {
+        "OrigTeam": "Real Madrid", 
+        "priceStatus": "\u20ac50M", 
+        "DestTeam": "Arsenal"
+    }, 
+    "Tom Carroll": {
+        "OrigTeam": "Tottenham", 
+        "priceStatus": "5.2million", 
+        "DestTeam": "Swansea"
+    }, 
+    "Zlatan Ibrahimovic": {
+        "OrigTeam": "PSG", 
+        "priceStatus": "Free", 
+        "DestTeam": "Manchester Utd"
+    }, 
+    "Morgan Schneiderlin": {
+        "OrigTeam": "Manchester United", 
+        "priceStatus": "22.9million", 
+        "DestTeam": "Everton"
+    }, 
+    "Luis Hernandez": {
+        "OrigTeam": "Sporting Gijon", 
+        "priceStatus": "Free", 
+        "DestTeam": "Leicester"
+    }, 
+    "Gokhan Tore": {
+        "OrigTeam": "Besiktas", 
+        "priceStatus": "Loan", 
+        "DestTeam": "West Ham"
+    }, 
+    "Angel Di Maria": {
+        "OrigTeam": "Real Madrid", 
+        "priceStatus": "\u20ac75M", 
+        "DestTeam": "Manchester United"
+    }, 
+    "Ron-Robert Zieler": {
+        "OrigTeam": "Hannover", 
+        "priceStatus": "3.5million", 
+        "DestTeam": "Leicester"
+    }, 
+    "Steven Defour": {
+        "OrigTeam": "Anderlecht", 
+        "priceStatus": "9million", 
+        "DestTeam": "Burnley"
+    }, 
+    "Will Keane": {
+        "OrigTeam": "Manchester Utd", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Hull"
+    }, 
+    "Alvaro Arbeloa": {
+        "OrigTeam": "Real Madrid", 
+        "priceStatus": "Free", 
+        "DestTeam": "West Ham"
+    }, 
+    "Nacer Chadli": {
+        "OrigTeam": "Tottenham", 
+        "priceStatus": "15.2million", 
+        "DestTeam": "West Brom"
+    }, 
+    "M'Baye Niang": {
+        "OrigTeam": "AC Milan", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Watford"
+    }, 
+    "Manolo Gabbiadini": {
+        "OrigTeam": "Napoli", 
+        "priceStatus": "17million", 
+        "DestTeam": "Southampton"
+    }, 
+    "Moussa Sissoko": {
+        "OrigTeam": "Newcastle", 
+        "priceStatus": "35million", 
+        "DestTeam": "Tottenham"
+    }
+}
