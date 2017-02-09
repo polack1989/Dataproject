@@ -81,15 +81,15 @@ class FootballTeamSpider(scrapy.Spider):
         urls = [year_2016_2017, year_2015_2016, year_2014_2015, year_2013_2014, year_2012_2013, year_2011_2012,
                 year_2010_2011, year_2009_2010, year_2008_2009, year_2007_2008]
 
-        for url in urls:
-            for yearUrl in url:
-                yield scrapy.Request(url=yearUrl, callback=self.transferParse)
+        #for url in urls:
+        for yearUrl in year_2016_2017:
+            yield scrapy.Request(url=yearUrl, callback=self.transferParse)
 
 
     def transferParse(self, response):
         for player in response.css('.transfer-zone-tab table tbody tr'):
             date = player.css('.date').extract_first()
-            isExpensive = bool(re.search('20[0-9]{2}', date))
+            isExpensive = bool(re.search('[0-9]{4}', date))
             if isExpensive is True:
                 continue
             name = player.css('.player-deals h4::text').extract_first()
@@ -100,4 +100,3 @@ class FootballTeamSpider(scrapy.Spider):
             to_team = info[3]
             priceStatus = info[4]
             yield {name: {'OrigTeam': from_team, 'DestTeam': to_team, 'priceStatus': priceStatus}}
-

@@ -8,6 +8,14 @@ type_key = "type"
 dest_country_key = "DestCountry"
 orig_country_key = "OrigCountry"
 
+swap = "swap"
+trade = "trade"
+undisclosed = "undis"
+na = "n/a"
+fee = "fee"
+free = "Free"
+loan = "Loan"
+
 start_year = 2007
 number_of_seasons = 10
 
@@ -129,7 +137,6 @@ teams_dic["MOREIRENSE"] = ("MOREIRENSE", "Portugal")
 teams_dic["MORELIA"] = ("MORELIA", "Mexico")
 teams_dic["MOTAGUA"] = ("MOTAGUA", "Honduras")
 teams_dic["MOTHERWELL"] = ("MOTHERWELL", "Scotland")
-teams_dic["MSI RIGHTS"] = ("MSI RIGHTS", "Russia")
 teams_dic["MSK ZILINA"] = ("MSK ZILINA", "Slovakia")
 teams_dic["MTK BUDAPEST"] = ("MTK BUDAPEST", "Hungary")
 teams_dic["MUNICH 1860"] = ("MUNICH 1860", "Germany")
@@ -1038,3 +1045,4 @@ teams_dic["ISTANBUL BB"] = ("ISTANBUL BB","Turkey")
 teams_dic["DE ANZA FORCE"] = ("DE ANZA FORCE","USA")
 teams_dic["SIVASSPOR"] = ("SIVASSPOR","Turkey")
 teams_dic["ESBJERG"] = ("ESBJERG","Denmark")
+teams_dic["MSI RIGHTS"] = ("MANCHESTER UNITED", "England")

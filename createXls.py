@@ -83,7 +83,7 @@ if __name__ == "__main__":
     # todo Create a func to read json array
 
     transport_array = create_full_clean_transports_json()
-    workbook = xlsxwriter.Workbook('try.xlsx')
+    workbook = xlsxwriter.Workbook('project_data.xlsx')
     create_transaction_table()
     create_all_separates_tables()
     workbook.close()

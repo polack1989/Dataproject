@@ -464,10 +464,10 @@
         "priceStatus": "undisclosed", 
         "DestTeam": "West Bromwich"
     }, 
-    "Nabil El Zhar": {
-        "OrigTeam": "Liverpool", 
+    "Ferran Corominas": {
+        "OrigTeam": "Espanyol", 
         "priceStatus": "Loan", 
-        "DestTeam": "Panathinaikos"
+        "DestTeam": "Osasuna"
     }, 
     "Richard Kingson ": {
         "OrigTeam": "Wigan Athletic", 
@@ -554,10 +554,10 @@
         "priceStatus": "Free", 
         "DestTeam": "Newcastle"
     }, 
-    "Danilo Pereira": {
-        "OrigTeam": "Benfica", 
+    "Pablo Pintos": {
+        "OrigTeam": "Lazio", 
         "priceStatus": "undisclosed", 
-        "DestTeam": "Parma"
+        "DestTeam": "Getafe"
     }, 
     "Tal Ben Haim": {
         "OrigTeam": "Portsmouth", 
@@ -624,10 +624,10 @@
         "priceStatus": "2.8million", 
         "DestTeam": "Liverpool"
     }, 
-    "Pablo Pintos": {
-        "OrigTeam": "Lazio", 
+    "Danilo Pereira": {
+        "OrigTeam": "Benfica", 
         "priceStatus": "undisclosed", 
-        "DestTeam": "Getafe"
+        "DestTeam": "Parma"
     }, 
     "David Villa": {
         "OrigTeam": "Valencia", 
@@ -924,10 +924,10 @@
         "priceStatus": "800,000", 
         "DestTeam": "Sampdoria"
     }, 
-    "Andre Ooijer": {
-        "OrigTeam": "PSV", 
-        "priceStatus": "Free", 
-        "DestTeam": "Ajax"
+    "Nabil El Zhar": {
+        "OrigTeam": "Liverpool", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Panathinaikos"
     }, 
     "Jerome Boateng": {
         "OrigTeam": " Hertha Berlin", 
@@ -1824,10 +1824,10 @@
         "priceStatus": "undisclosed", 
         "DestTeam": "Chievo"
     }, 
-    " Mauro Camoranesi ": {
-        "OrigTeam": "Juventus", 
-        "priceStatus": "undisclosed", 
-        "DestTeam": "Stuttgart"
+    "Artur Boruc": {
+        "OrigTeam": "Celtic", 
+        "priceStatus": "2million", 
+        "DestTeam": "Fiorentina"
     }, 
     "Bony Wilfried": {
         "OrigTeam": "Sparta Prague", 
@@ -2334,11 +2334,6 @@
         "priceStatus": "undisclosed", 
         "DestTeam": "Wolverhampton"
     }, 
-    "Julio Baptista": {
-        "OrigTeam": "Roma", 
-        "priceStatus": "2million", 
-        "DestTeam": "Malaga"
-    }, 
     "Enric Valles": {
         "OrigTeam": "NAC Breda", 
         "priceStatus": "Free", 
@@ -2373,12 +2368,7 @@
         "OrigTeam": "Lecce", 
         "priceStatus": "undisclosed", 
         "DestTeam": "Palermo"
-    }, 
-    "Christian Vieri": {
-        "OrigTeam": "Lazio", 
-        "priceStatus": "\u20ac45M", 
-        "DestTeam": "Inter Milan"
-    }, 
+    },  
     "Conor Sammon": {
         "OrigTeam": "Kilmarnock ", 
         "priceStatus": "undisclosed", 
@@ -2413,6 +2403,11 @@
         "OrigTeam": "Hammarby", 
         "priceStatus": "undisclosed", 
         "DestTeam": "Genoa"
+    }, 
+    "Andre Ooijer": {
+        "OrigTeam": "PSV", 
+        "priceStatus": "Free", 
+        "DestTeam": "Ajax"
     }, 
     "Marco Estrada": {
         "OrigTeam": "Univ. de Chile", 
@@ -2649,10 +2644,10 @@
         "priceStatus": "undisclosed", 
         "DestTeam": "Real Zaragoza"
     }, 
-    "Andrea Rispoli": {
-        "OrigTeam": "Parma", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Lecce"
+    "Julio Baptista": {
+        "OrigTeam": "Roma", 
+        "priceStatus": "2million", 
+        "DestTeam": "Malaga"
     }, 
     "Paul McCallum": {
         "OrigTeam": "Dulwich Hamlet", 
@@ -2714,10 +2709,10 @@
         "priceStatus": "undisclosed", 
         "DestTeam": "Wolverhampton"
     }, 
-    "Artur Boruc": {
-        "OrigTeam": "Celtic", 
-        "priceStatus": "2million", 
-        "DestTeam": "Fiorentina"
+    " Mauro Camoranesi ": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "undisclosed", 
+        "DestTeam": "Stuttgart"
     }, 
     "Dan Gosling": {
         "OrigTeam": "Everton", 
@@ -2734,10 +2729,10 @@
         "priceStatus": "Free", 
         "DestTeam": "West Ham"
     }, 
-    "Ferran Corominas": {
-        "OrigTeam": "Espanyol", 
+    "Andrea Rispoli": {
+        "OrigTeam": "Parma", 
         "priceStatus": "Loan", 
-        "DestTeam": "Osasuna"
+        "DestTeam": "Lecce"
     }, 
     "James Milner": {
         "OrigTeam": "Aston Villa", 

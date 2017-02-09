@@ -12,7 +12,7 @@ import json
 class JsonWriterPipeline(object):
 
     def open_spider(self, spider):
-        self.file = open('Transfers_All_Years.json', 'wb')
+        self.file = open('Transfers_year_year_2016_2017.json', 'wb')
         self.dict = {}
 
     def close_spider(self, spider):

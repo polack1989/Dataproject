@@ -7,43 +7,42 @@ from const import *
 
 
 def add_price(transfer):
-    price = transfer["priceStatus"]
-
+    price = transfer[price_Status_key]
     check_price = check_price_type(price)
     transfer[type_key] = check_price[0]
     transfer.pop("priceStatus")
     transfer[price_key] = check_price[1]
 
+
 def check_price_type(price):
     price_amount = ""
     type = ""
-
-    swap = "swap"
-    trade = "trade"
-    undisclosed = "undis"
-    na = "n/a"
-    fee = "fee"
-    free = "Free"
-    loan = "Loan"
 
     if price == loan:
         type = loan
         price_amount = None
 
+    elif undisclosed in price or swap in price or trade in price or na in price or fee in price:
+        type = "Transfer NA"
+        price_amount = None
+
     elif any(char.isdigit() for char in price):
         type = "Transfer"
-        for char in price :
+
+        # in case there is extra data on the transfer in price status
+        if "(" in price:
+            price = price.split('(')[0]
+
+        for char in price:
             if char.isdigit() or char == '.':
                 price_amount += char
+
         if (price_amount.find(".") == -1) and (len(price_amount) > 3):
             price_amount = float(price_amount) / math.pow(10, 6)
 
         else:
             price_amount = float(price_amount)
 
-    elif undisclosed in price or swap in price or trade in price or na in price or fee in price:
-        type = "Transfer NA"
-        price_amount = None
 
     elif price.find(free) != -1:
         type = "Free"

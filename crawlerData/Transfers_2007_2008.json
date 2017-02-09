@@ -34,15 +34,15 @@
         "priceStatus": "Loan", 
         "DestTeam": "Torino"
     }, 
-    "Lucchini": {
-        "OrigTeam": "Empoli", 
+    "A. Duscher": {
+        "OrigTeam": "Deportivo", 
         "priceStatus": "Free", 
-        "DestTeam": "Sampdoria"
+        "DestTeam": "R. Santander"
     }, 
-    "A. Perna": {
-        "OrigTeam": "Modena", 
+    "Novinic": {
+        "OrigTeam": "Nafta", 
         "priceStatus": "n/a", 
-        "DestTeam": "Parma"
+        "DestTeam": "Milan"
     }, 
     "Caserta": {
         "OrigTeam": "Catania", 
@@ -89,11 +89,6 @@
         "priceStatus": "n/a", 
         "DestTeam": "Cagliari"
     }, 
-    "R. Matusiak": {
-        "OrigTeam": "Belchatow", 
-        "priceStatus": "2000000", 
-        "DestTeam": "Palermo"
-    }, 
     "Mavuba": {
         "OrigTeam": "Bordeaux", 
         "priceStatus": "8000000", 
@@ -129,10 +124,10 @@
         "priceStatus": "Loan", 
         "DestTeam": "Valenciennes"
     }, 
-    "Christian Vieri": {
-        "OrigTeam": "Lazio", 
-        "priceStatus": "\u20ac45M", 
-        "DestTeam": "Inter Milan"
+    "Mazuch": {
+        "OrigTeam": "Brno", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Fiorentina"
     }, 
     "Nocerino": {
         "OrigTeam": "Piacenza", 
@@ -143,6 +138,11 @@
         "OrigTeam": "Catania", 
         "priceStatus": "n/a", 
         "DestTeam": "Livorno"
+    }, 
+    "Gabi": {
+        "OrigTeam": "Atletico Madrid", 
+        "priceStatus": "9000000", 
+        "DestTeam": "Zaragoza"
     }, 
     "Mesto": {
         "OrigTeam": "Reggina", 
@@ -163,21 +163,11 @@
         "OrigTeam": "Lazio", 
         "priceStatus": "Free", 
         "DestTeam": "Torino"
-    }, 
-    "G. Paoletti": {
-        "OrigTeam": "Udinese", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Messina"
-    }, 
+    },  
     "Matuzalem": {
         "OrigTeam": "Shakhtar D.", 
         "priceStatus": "Free", 
         "DestTeam": "Zaragoza"
-    }, 
-    "Arveladze": {
-        "OrigTeam": "AZ Alkmaar", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Levante"
     }, 
     "B. Zenden": {
         "OrigTeam": "Liverpool", 
@@ -229,10 +219,10 @@
         "priceStatus": "Free", 
         "DestTeam": "Zaragoza"
     }, 
-    "S. Kuffour": {
-        "OrigTeam": "Roma", 
-        "priceStatus": "Free", 
-        "DestTeam": "Ajax"
+    "J. Ernesto Sosa": {
+        "OrigTeam": "Estudiantes", 
+        "priceStatus": "10000000", 
+        "DestTeam": "Bayern Munich"
     }, 
     "Ujkani": {
         "OrigTeam": "Anderlecht", 
@@ -304,10 +294,15 @@
         "priceStatus": "n/a", 
         "DestTeam": "Bayern Munich"
     }, 
-    "Gabi": {
-        "OrigTeam": "Atletico Madrid", 
-        "priceStatus": "9000000", 
-        "DestTeam": "Zaragoza"
+    "A. Perna": {
+        "OrigTeam": "Modena", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Parma"
+    }, 
+    "Vargas": {
+        "OrigTeam": "PSG", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Betis"
     }, 
     "I. Bakayoko": {
         "OrigTeam": "Livorno", 
@@ -329,20 +324,15 @@
         "priceStatus": "9000000", 
         "DestTeam": "Barcelona"
     }, 
-    "Mirante": {
-        "OrigTeam": "Juventus", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Sampdoria"
-    }, 
     "S.B. Almiron": {
         "OrigTeam": "Empoli", 
         "priceStatus": "9000000", 
         "DestTeam": "Juventus"
     }, 
-    "Novinic": {
-        "OrigTeam": "Nafta", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Milan"
+    "E. Cavani": {
+        "OrigTeam": "Danubio", 
+        "priceStatus": "5000000", 
+        "DestTeam": "Palermo"
     }, 
     "V. Spadavecchia": {
         "OrigTeam": "Pescara Calcio", 
@@ -374,10 +364,10 @@
         "priceStatus": "8000000", 
         "DestTeam": "Athletic Bilbao"
     }, 
-    "S. Sabrosa": {
-        "OrigTeam": "Benfica", 
-        "priceStatus": "20000000", 
-        "DestTeam": "Atletico Madrid"
+    "M. Pisano": {
+        "OrigTeam": "Palermo", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Torino"
     }, 
     "E. Abidal": {
         "OrigTeam": "Lyon", 
@@ -414,15 +404,20 @@
         "priceStatus": "2500000", 
         "DestTeam": "Mainz"
     }, 
+    "E. Bogdani": {
+        "OrigTeam": "Siena", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Chievo Verona"
+    }, 
     "R. Kovac": {
         "OrigTeam": "Juventus", 
         "priceStatus": "n/a", 
         "DestTeam": "B. Dortmund"
     }, 
-    "E. Cavani": {
-        "OrigTeam": "Danubio", 
-        "priceStatus": "5000000", 
-        "DestTeam": "Palermo"
+    "Gastaldello": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Sampdoria"
     }, 
     "N. Alexander": {
         "OrigTeam": "Ipswich", 
@@ -434,20 +429,20 @@
         "priceStatus": "n/a", 
         "DestTeam": "Mallorca"
     }, 
-    "Giovinco": {
-        "OrigTeam": "Juventus", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Empoli"
+    "S. Lombardi": {
+        "OrigTeam": "Arezzo", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Ascoli"
     }, 
     "Ze Roberto": {
         "OrigTeam": "Santos", 
         "priceStatus": "n/a", 
         "DestTeam": "Bayern Munich"
     }, 
-    "C. Puggioni": {
-        "OrigTeam": "Pisa Calcio", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Reggina"
+    "Lucchini": {
+        "OrigTeam": "Empoli", 
+        "priceStatus": "Free", 
+        "DestTeam": "Sampdoria"
     }, 
     "Simao": {
         "OrigTeam": "Benfica", 
@@ -468,6 +463,11 @@
         "OrigTeam": "Inter", 
         "priceStatus": "n/a", 
         "DestTeam": "Celtic"
+    }, 
+    "R. Ayala": {
+        "OrigTeam": "Valencia", 
+        "priceStatus": "Free", 
+        "DestTeam": "Villarreal"
     }, 
     "C. Prates": {
         "OrigTeam": "Livorno", 
@@ -509,10 +509,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Zaragoza"
     }, 
-    "G. Milito": {
-        "OrigTeam": "Real Zaragoza", 
-        "priceStatus": "22400000", 
-        "DestTeam": "Barcelona"
+    "V. Grella": {
+        "OrigTeam": "Parma", 
+        "priceStatus": "Free", 
+        "DestTeam": "Torino"
     }, 
     "L. Garcia": {
         "OrigTeam": "Liverpool", 
@@ -554,10 +554,10 @@
         "priceStatus": "5300000", 
         "DestTeam": "Parma"
     }, 
-    "Geijo": {
-        "OrigTeam": "Xerez", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Levante"
+    "Montella": {
+        "OrigTeam": "Roma", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Sampdoria"
     }, 
     "Cazorla": {
         "OrigTeam": "Recreativo", 
@@ -574,10 +574,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Le Mans"
     }, 
-    "M. Pisano": {
-        "OrigTeam": "Palermo", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Torino"
+    "S. Sabrosa": {
+        "OrigTeam": "Benfica", 
+        "priceStatus": "20000000", 
+        "DestTeam": "Atletico Madrid"
     }, 
     "R. Pereira": {
         "OrigTeam": "Sporting Lisbon", 
@@ -594,10 +594,10 @@
         "priceStatus": "Free", 
         "DestTeam": "Juventus"
     }, 
-    "Albert Luque": {
-        "OrigTeam": "Newcastle", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Ajax"
+    "A. Pato": {
+        "OrigTeam": "Internacional", 
+        "priceStatus": "14500000", 
+        "DestTeam": "Milan"
     }, 
     "F. Quagliarella": {
         "OrigTeam": "Sampdoria", 
@@ -619,10 +619,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Almeria"
     }, 
-    "J-A Boumsong": {
-        "OrigTeam": "Juventus", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Lyon"
+    "R. Matusiak": {
+        "OrigTeam": "Belchatow", 
+        "priceStatus": "2000000", 
+        "DestTeam": "Palermo"
     }, 
     "M. Blasi": {
         "OrigTeam": "Juventus", 
@@ -631,11 +631,6 @@
     }, 
     "Aimo Diano": {
         "OrigTeam": "Palermo", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Torino"
-    }, 
-    "Zanetti": {
-        "OrigTeam": "Ascoli", 
         "priceStatus": "n/a", 
         "DestTeam": "Torino"
     }, 
@@ -649,15 +644,15 @@
         "priceStatus": "Loan", 
         "DestTeam": "Inter"
     }, 
-    "A. Kolarov": {
-        "OrigTeam": "Ofk Belgrade", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Lazio"
-    }, 
-    "Carlos Vela": {
-        "OrigTeam": "Arsenal", 
+    "Estoyanoff": {
+        "OrigTeam": "Levante", 
         "priceStatus": "Loan", 
-        "DestTeam": "Osasuna"
+        "DestTeam": "Valladolid"
+    }, 
+    "Giovinco": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Empoli"
     }, 
     "A. Cassano": {
         "OrigTeam": "Real Madrid", 
@@ -689,8 +684,8 @@
         "priceStatus": "Loan", 
         "DestTeam": "Getafe"
     }, 
-    "Montella": {
-        "OrigTeam": "Roma", 
+    "Mirante": {
+        "OrigTeam": "Juventus", 
         "priceStatus": "Loan", 
         "DestTeam": "Sampdoria"
     }, 
@@ -774,15 +769,15 @@
         "priceStatus": "n/a", 
         "DestTeam": "R. Santander"
     }, 
-    "L. Giuly": {
-        "OrigTeam": "Barcelona", 
-        "priceStatus": "3200000", 
-        "DestTeam": "Roma"
+    "J. A. Reyes": {
+        "OrigTeam": "Arsenal", 
+        "priceStatus": "10000000", 
+        "DestTeam": "Atletico Madrid"
     }, 
-    "Gastaldello": {
-        "OrigTeam": "Juventus", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Sampdoria"
+    "De Vezze": {
+        "OrigTeam": "Palermo", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Livorno"
     }, 
     "Gargano": {
         "OrigTeam": "Danubio", 
@@ -839,10 +834,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Atlanta"
     }, 
-    "C. Abbiati": {
-        "OrigTeam": "Milan", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Atletico Madrid"
+    "Inler": {
+        "OrigTeam": "Zurich", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Udinese"
     }, 
     "Blanco": {
         "OrigTeam": "Sevilla", 
@@ -864,10 +859,10 @@
         "priceStatus": "6300000", 
         "DestTeam": "Roma"
     }, 
-    "J. Ernesto Sosa": {
-        "OrigTeam": "Estudiantes", 
-        "priceStatus": "10000000", 
-        "DestTeam": "Bayern Munich"
+    "S. Kuffour": {
+        "OrigTeam": "Roma", 
+        "priceStatus": "Free", 
+        "DestTeam": "Ajax"
     }, 
     "Pepe": {
         "OrigTeam": "Porto", 
@@ -908,6 +903,11 @@
         "OrigTeam": "Roma", 
         "priceStatus": "Loan", 
         "DestTeam": "Sampdoria"
+    }, 
+    "Geijo": {
+        "OrigTeam": "Xerez", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Levante"
     }, 
     "M. Maccarone": {
         "OrigTeam": "Middlesbrough", 
@@ -974,10 +974,15 @@
         "priceStatus": "13000000", 
         "DestTeam": "Atletico Madrid"
     }, 
-    "M. Zalayeta": {
-        "OrigTeam": "Juventus", 
+    "C. Santana": {
+        "OrigTeam": "Santos", 
         "priceStatus": "n/a", 
-        "DestTeam": "Napoli"
+        "DestTeam": "Atletico Madrid"
+    }, 
+    "Samoza": {
+        "OrigTeam": "Villarreal", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Betis"
     }, 
     "B. Corradi": {
         "OrigTeam": "Manchester C.", 
@@ -994,25 +999,20 @@
         "priceStatus": "Loan", 
         "DestTeam": "Rangers"
     }, 
-    "Vargas": {
-        "OrigTeam": "PSG", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Betis"
+    "G. Milito": {
+        "OrigTeam": "Real Zaragoza", 
+        "priceStatus": "22400000", 
+        "DestTeam": "Barcelona"
     }, 
     "S. Makinwa": {
         "OrigTeam": "Lazio", 
         "priceStatus": "n/a", 
         "DestTeam": "Reggina"
     }, 
-    "S. Lombardi": {
-        "OrigTeam": "Arezzo", 
+    "T. Linderoth": {
+        "OrigTeam": "Copenhagen", 
         "priceStatus": "n/a", 
-        "DestTeam": "Ascoli"
-    }, 
-    "Frank Ribery": {
-        "OrigTeam": "Marseille", 
-        "priceStatus": "25000000", 
-        "DestTeam": "Bayern Munich"
+        "DestTeam": "Galatasaray"
     }, 
     "Caracciolo": {
         "OrigTeam": "Palermo", 
@@ -1034,10 +1034,10 @@
         "priceStatus": "4300000", 
         "DestTeam": "Palermo"
     }, 
-    "E. Bogdani": {
-        "OrigTeam": "Siena", 
+    "Albert Luque": {
+        "OrigTeam": "Newcastle", 
         "priceStatus": "n/a", 
-        "DestTeam": "Chievo Verona"
+        "DestTeam": "Ajax"
     }, 
     "Coltorti": {
         "OrigTeam": "Grasshopper", 
@@ -1059,10 +1059,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Fiorentina"
     }, 
-    "C. Santana": {
-        "OrigTeam": "Santos", 
+    "Zanetti": {
+        "OrigTeam": "Ascoli", 
         "priceStatus": "n/a", 
-        "DestTeam": "Atletico Madrid"
+        "DestTeam": "Torino"
     }, 
     "J. D. Job": {
         "OrigTeam": "Sedan", 
@@ -1084,10 +1084,10 @@
         "priceStatus": "Loan", 
         "DestTeam": "B. Leverkusen"
     }, 
-    "R. Ayala": {
-        "OrigTeam": "Valencia", 
-        "priceStatus": "Free", 
-        "DestTeam": "Villarreal"
+    "N. Novakovic": {
+        "OrigTeam": "Odense", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Reggina"
     }, 
     "Lozano": {
         "OrigTeam": "Betis", 
@@ -1113,6 +1113,11 @@
         "OrigTeam": "Juventus", 
         "priceStatus": "n/a (50%)", 
         "DestTeam": "Empoli"
+    }, 
+    "A. Kolarov": {
+        "OrigTeam": "Ofk Belgrade", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Lazio"
     }, 
     "C. Coppola": {
         "OrigTeam": "Messina", 
@@ -1183,16 +1188,11 @@
         "OrigTeam": "Lazio", 
         "priceStatus": "Loan", 
         "DestTeam": "Juventus"
-    }, 
-    "Vieri": {
-        "OrigTeam": "Atalanta", 
-        "priceStatus": "Free", 
-        "DestTeam": "Fiorentina"
-    }, 
-    "De Vezze": {
-        "OrigTeam": "Palermo", 
+    },  
+    "G. Paoletti": {
+        "OrigTeam": "Udinese", 
         "priceStatus": "n/a", 
-        "DestTeam": "Livorno"
+        "DestTeam": "Messina"
     }, 
     "R. Carroll": {
         "OrigTeam": "West Ham", 
@@ -1204,10 +1204,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Ascoli"
     }, 
-    "T. Linderoth": {
-        "OrigTeam": "Copenhagen", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Galatasaray"
+    "Frank Ribery": {
+        "OrigTeam": "Marseille", 
+        "priceStatus": "25000000", 
+        "DestTeam": "Bayern Munich"
     }, 
     "L. Grimi": {
         "OrigTeam": "R C Avellaneda", 
@@ -1239,20 +1239,20 @@
         "priceStatus": "Loan", 
         "DestTeam": "Hamburg SV"
     }, 
-    "A. Pato": {
-        "OrigTeam": "Internacional", 
-        "priceStatus": "14500000", 
-        "DestTeam": "Milan"
+    "Arveladze": {
+        "OrigTeam": "AZ Alkmaar", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Levante"
     }, 
     "Atunes": {
         "OrigTeam": "Pacos Ferreira", 
         "priceStatus": "Loan", 
         "DestTeam": "Roma"
     }, 
-    "Samoza": {
-        "OrigTeam": "Villarreal", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Betis"
+    "M. Zalayeta": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Napoli"
     }, 
     "F. Adu": {
         "OrigTeam": "R. Salt Lake", 
@@ -1294,6 +1294,11 @@
         "priceStatus": "1500000", 
         "DestTeam": "Rennes"
     }, 
+    "Carlos Vela": {
+        "OrigTeam": "Arsenal", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Osasuna"
+    }, 
     "Bogdani": {
         "OrigTeam": "Chievo", 
         "priceStatus": "Loan", 
@@ -1334,30 +1339,25 @@
         "priceStatus": "3400000", 
         "DestTeam": "Lazio"
     }, 
-    "Mazuch": {
-        "OrigTeam": "Brno", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Fiorentina"
+    "C. Abbiati": {
+        "OrigTeam": "Milan", 
+        "priceStatus": "Loan", 
+        "DestTeam": "Atletico Madrid"
     }, 
     "Reginaldo": {
         "OrigTeam": "Fiorentina", 
         "priceStatus": "4500000", 
         "DestTeam": "Parma"
     }, 
-    "Emerson": {
-        "OrigTeam": "Real Madrid", 
-        "priceStatus": "5000000", 
-        "DestTeam": "Milan"
-    }, 
     "C. Cuellar": {
         "OrigTeam": "Osasuna", 
         "priceStatus": "n/a", 
         "DestTeam": "Rangers"
     }, 
-    "Estoyanoff": {
-        "OrigTeam": "Levante", 
-        "priceStatus": "Loan", 
-        "DestTeam": "Valladolid"
+    "C. Puggioni": {
+        "OrigTeam": "Pisa Calcio", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Reggina"
     }, 
     "Piccolo": {
         "OrigTeam": "Juventus", 
@@ -1474,10 +1474,10 @@
         "priceStatus": "6000000", 
         "DestTeam": "Livorno"
     }, 
-    "J. A. Reyes": {
-        "OrigTeam": "Arsenal", 
-        "priceStatus": "10000000", 
-        "DestTeam": "Atletico Madrid"
+    "L. Giuly": {
+        "OrigTeam": "Barcelona", 
+        "priceStatus": "3200000", 
+        "DestTeam": "Roma"
     }, 
     "M. Esposito": {
         "OrigTeam": "Cagliari", 
@@ -1494,11 +1494,6 @@
         "priceStatus": "n/a", 
         "DestTeam": "Lazio"
     }, 
-    "V. Grella": {
-        "OrigTeam": "Parma", 
-        "priceStatus": "Free", 
-        "DestTeam": "Torino"
-    }, 
     "Marchisio": {
         "OrigTeam": "Juventus", 
         "priceStatus": "Loan", 
@@ -1509,10 +1504,10 @@
         "priceStatus": "2000000", 
         "DestTeam": "Atletico Madrid"
     }, 
-    "A. Duscher": {
-        "OrigTeam": "Deportivo", 
-        "priceStatus": "Free", 
-        "DestTeam": "R. Santander"
+    "J-A Boumsong": {
+        "OrigTeam": "Juventus", 
+        "priceStatus": "n/a", 
+        "DestTeam": "Lyon"
     }, 
     "W. Sneijder": {
         "OrigTeam": "Ajax", 
@@ -1569,10 +1564,10 @@
         "priceStatus": "n/a", 
         "DestTeam": "Siena"
     }, 
-    "N. Novakovic": {
-        "OrigTeam": "Odense", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Reggina"
+    "Emerson": {
+        "OrigTeam": "Real Madrid", 
+        "priceStatus": "5000000", 
+        "DestTeam": "Milan"
     }, 
     "Diaz": {
         "OrigTeam": "Boca Juniors", 
@@ -1608,11 +1603,6 @@
         "OrigTeam": "Aston Villa", 
         "priceStatus": "Free", 
         "DestTeam": "Juventus"
-    }, 
-    "Inler": {
-        "OrigTeam": "Zurich", 
-        "priceStatus": "n/a", 
-        "DestTeam": "Udinese"
     }, 
     "T. L. Lua Lua": {
         "OrigTeam": "Portsmouth", 
