@@ -103,17 +103,12 @@ def clean_string(transfer):
 
 
 
-def add_country(transfer):
-    #remove when polack done
-    if (transfer[orig_Team_key] in teams_dic.keys()):
-        transfer[orig_country_key] = teams_dic[transfer[orig_Team_key]][1]
-    else:
-        transfer[orig_country_key] = None
+def add_country_and_update_teams(transfer):
+    transfer[orig_country_key] = teams_dic[transfer[orig_Team_key]][1]
+    transfer[orig_Team_key] = teams_dic[transfer[orig_Team_key]][0]
+    transfer[dest_country_key] = teams_dic[transfer[dest_Team_key]][1]
+    transfer[dest_Team_key] = teams_dic[transfer[dest_Team_key]][0]
 
-    if (transfer[dest_Team_key] in teams_dic.keys()):
-        transfer[dest_country_key] = teams_dic[transfer[dest_Team_key]][1]
-    else:
-        transfer[dest_country_key] = None
 
 
 
@@ -124,7 +119,7 @@ def create_full_clean_transports_json():
         transfer = add_player_name_and_year(transfer_tuple)
         clean_string(transfer)
         add_price(transfer)
-        add_country(transfer)
+        add_country_and_update_teams(transfer)
         transport_array.append(transfer)
 
     j = json.dumps(transport_array, indent=4)
@@ -132,9 +127,4 @@ def create_full_clean_transports_json():
     print >> f, j
     f.close()
     return transport_array
-
-
-
-if __name__ == "__main__":
-    (create_full_clean_transports_json())
 

@@ -1,6 +1,5 @@
 import xlsxwriter
 from organizeCrawlerData import create_full_clean_transports_json
-
 from const import *
 
 
@@ -10,8 +9,10 @@ def get_all_lists(transfer_array):
     countries = set()
     for transfer in transfer_array:
         players.add(transfer[player_Name_key])
-        teams.add(transfer[orig_Team_key])
-        teams.add(transfer[dest_Team_key])
+        if transfer[orig_Team_key] in teams_dic.keys():
+            teams.add(transfer[orig_Team_key])
+        if transfer[dest_Team_key] in teams_dic.keys():
+            teams.add(transfer[dest_Team_key])
         countries.add(transfer[orig_country_key])
         countries.add(transfer[dest_country_key])
     return players, teams, countries
@@ -68,11 +69,7 @@ def create_all_separates_tables():
     row = 1
     for team in sorted(teams):
         worksheet.write(row, 2, team)
-        # todo when polack will finish the dic
-        if(team in teams_dic.keys()):
-            worksheet.write(row, 3, teams_dic[team][1])
-        else:
-            worksheet.write(row, 3, None)
+        worksheet.write(row, 3, teams_dic[team][1])
         row += 1
 
     row = 1
