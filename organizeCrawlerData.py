@@ -1,6 +1,6 @@
 import json
 import os
-import re
+import cPickle as pickle
 import math
 import string
 from const import *
@@ -121,9 +121,10 @@ def create_full_clean_transports_json():
         add_country_and_update_teams(transfer)
         transport_array.append(transfer)
 
-    j = json.dumps(transport_array, indent=4)
-    f = open('sample.json', 'w')
-    print >> f, j
-    f.close()
+    # j = json.dumps(transport_array, indent=4)
+    # f = open('sample.json', 'w')
+    # print >> f, j
+    # f.close()
+    pickle.dump(transport_array, open("transferDataArray.p", "wb"))
     return transport_array
 
