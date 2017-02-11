@@ -1,0 +1,33 @@
+C:\Python27\python.exe C:/Users/Roy/PycharmProjects/DataProject_git/CliquePecolation.py
+-----------------------FULL DATA GRAPH----------------------------------------------------
+('The number of nodes in the graph is: ', 71)
+('The number of edges in the graph is: ', 265)
+('The number of connected component in the graph is: ', 1)
+--------------------------------NUM TRANSFERS DATA-------------------------------------------
+('The number of nodes in the NUM TRANSFERS graph is: ', 20)
+('The number of edges in the NUM TRANSFERS graph is: ', 47)
+('The number of connected component in the NUM TRANSFERS graph is: ', 1)
+('The number of cliques is: ', 16)
+[(('Scotland', 'England'), 30, 80.48), (('USA', 'England'), 14, 21.7), (('Italy', 'Uruguay'), 12, 18.5), (('Italy', 'Croatia'), 10, 11.4), (('Denmark', 'England'), 9, 23.299999999999997)]
+[(('Italy', 'England', 'Belgium'), 158, 1064.8980000000001), (('Italy', 'England', 'Greece'), 152, 1041.3980000000001), (('Italy', 'Argentina', 'Spain'), 132, 832.55), (('Italy', 'Serbia', 'Spain'), 102, 717.6)]
+[(('Italy', 'England', 'Spain', 'Germany', 'Brazil'), 609, 5038.223)]
+----------------------------The Communities are:----------------------------------------------
+(frozenset(['Brazil', 'Germany', 'Italy', 'England', 'Spain']), 5038.223)
+--------------------------------TWO TEAMS DATA-------------------------------------------
+('Brazil', 'Italy', 31, 107.6)
+('Italy', 'France', 38, 377.59999999999997)
+('Italy', 'Argentina', 34, 118.4)
+('Italy', 'Germany', 60, 326.8)
+('Italy', 'Spain', 78, 651.5)
+('Italy', 'England', 127, 913.6980000000001)
+('Scotland', 'England', 30, 80.48)
+('France', 'Germany', 26, 160.6)
+('France', 'Spain', 54, 499.79999999999995)
+('France', 'England', 96, 803.38)
+('Germany', 'Spain', 52, 308.2)
+('Germany', 'England', 71, 667.35)
+('Spain', 'England', 145, 1734.6250000000002)
+('Spain', 'Portugal', 46, 431.15)
+('Holland', 'England', 44, 290.25)
+
+Process finished with exit code 0

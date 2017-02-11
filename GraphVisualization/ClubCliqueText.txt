@@ -1,0 +1,26 @@
+-----------------------FULL DATA GRAPH----------------------------------------------------
+('The number of nodes in the graph is: ', 627)
+('The number of edges in the graph is: ', 2590)
+('The number of connected component in the graph is: ', 3)
+--------------------------------NUM TRANSFERS DATA-------------------------------------------
+('The number of nodes in the NUM TRANSFERS graph is: ', 145)
+('The number of edges in the NUM TRANSFERS graph is: ', 359)
+('The number of connected component in the NUM TRANSFERS graph is: ', 2)
+('The number of cliques is: ', 261)
+[(('SAMPDORIA', 'UDINENSE'), 6, 25.4), (('LIVERPOOL', 'SOUTHAMPTON'), 5, 119.9), (('MARSEILLE', 'WEST HAM UNITED'), 4, 48.0), (('AJAX', 'AZ ALKMAAR'), 4, 10.0), (('VILLAREAL', 'ESPANYOL'), 4, 11.25)]
+[(('NAPOLI', 'UDINENSE', 'JUVENTUS'), 18, 198.95), (('LAZIO', 'INTER MILAN', 'GENOA'), 15, 62.5), (('GENOA', 'JUVENTUS', 'SASSUOLO'), 15, 69.5), (('UDINENSE', 'ROMA', 'JUVENTUS'), 15, 122.35), (('FIORENTINA', 'JUVENTUS', 'NAPOLI'), 14, 132.0)]
+[(('GENOA', 'JUVENTUS', 'AC MILAN', 'PARMA'), 27, 69.0), (('GENOA', 'JUVENTUS', 'AC MILAN', 'ROMA'), 24, 152.4), (('VALENCIA', 'MANCHESTER CITY', 'SEVILLA', 'BARCELONA'), 23, 453.40000000000003), (('LIVERPOOL', 'MANCHESTER CITY', 'SEVILLA', 'BARCELONA'), 19, 387.3), (('TORINO', 'JUVENTUS', 'ATALANTA', 'NAPOLI'), 18, 158.55)]
+----------------------------The Communities are:----------------------------------------------
+(frozenset(['LIVERPOOL', 'SEVILLA', 'MANCHESTER CITY', 'BARCELONA', 'VALENCIA']), 652.8)
+(frozenset(['ATALANTA', 'TORINO', 'JUVENTUS', 'NAPOLI']), 158.55)
+(frozenset(['PARMA', 'JUVENTUS', 'ROMA', 'GENOA', 'AC MILAN']), 173.4)
+--------------------------------TWO TEAMS DATA-------------------------------------------
+('AC MILAN', 'GENOA', 8, 11.0)
+('ATLECTICO MADRID', 'BENFICA', 7, 93.0)
+('ARSENAL', 'BARCELONA', 6, 160.5)
+('PARMA', 'GENOA', 7, 7.0)
+('JUVENTUS', 'UDINENSE', 8, 56.449999999999996)
+('GENOA', 'INTER MILAN', 7, 17.0)
+('BARCELONA', 'SEVILLA', 6, 97.5)
+('ASTON VILLA', 'MANCHESTER CITY', 8, 64.80000000000001)
+('SAMPDORIA', 'UDINENSE', 6, 25.4)
