@@ -83,21 +83,6 @@ def clean_string(transfer):
         if str_value[(len(str_value)-1)] == " ":
             str_value = str_value[:len(str_value)-1]
 
-        #private cases
-        if "Marcelo Filho" in str_value:
-            if len(str_value) == 14:
-                print "_"+str_value+"_"
-                print(str_value[13]== " ")
-                str_value = str_value[:len(str_value) - 1]
-                print "_"+str_value+"_"
-
-        if "Edin Dzeko" in str_value:
-            if len(str_value) == 11:
-                print "_"+str_value+"_"
-                print(str_value[10] == " ")
-                str_value = str_value[:len(str_value) - 1]
-                print "_"+str_value+"_"
-
         transfer[string_value_key] = str_value
 
 
