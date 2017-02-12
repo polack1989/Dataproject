@@ -1,0 +1,58 @@
+Solution 
+After Exracting and organizing the data, in order to examine the phenomanoun of exceptional player transfer relations between european football clubs, we used the clique percolation algorithm.We assumed that a group of more than two teams having exceptional relations will be characterized by substencial amount of players or money that was transffered between them 
+We represent the transfers data as an undirected graph which every node in the graph is a football club, there is an edge between two nodes if there is a transfer between the two teams. On each edge we asigned two weights, The total amount of players and total amount of money that was transffered between them.
+
+in order to filter the graph from irrelevant data we filtered out all edges that has less than two transfers between them or less than a total of 3 million euros
+that was transferred between the teams. We got to these parameters after examining the results of the algorithm and the substancial data that it produced according
+to the criterias decided and will be further explained in the following sections. 
+
+We implemented the clique-percolation as follows, after creating and filtering the team graph we extracted all the max-clique from the graph. We got *** cliques involving
+*** teams, in a brief look at the data we saw that still there is a lot of irrelevent data.
+We built a function that extract the k cliques from each size with the maximum transfers between them. In detail, we extracted all the cliques from each size, the amount of teams in the clique, and summed the number of transfers between the teams in the clique. We tried to filter the cliques according to the amount of money that was transfered between the teams. As a result we only got the teams that made the most expensive transfers, and all the connections between the average(money wise) teams was filtered out. Those teams has a large impact on the data in our opinion. Evantually we extracted the top 5 cliques from each size according to the amount of player transfer between them and not by the money.
+
+already when looking at the cliques extracted we saw some interesting connections between inner and inter country teams.
+
+In the final stage we built the clique graph from the strongest cliques that was extracted earlier, and extracted the communities from them.
+
+the communities was very informative, we saw a strong connections between teams in italy, and some teams in spain.
+
+We did the same process on countries, we build a graph that each node in it is a country and there is an edge between countries if there is a player that was transfered from one of the teams located in the country. in the country graph our filtering threshhold was much stricter and we filtered out connections between two countriesthat had less than 20 transfers between them.
+
+results analysis:
+
+The Club Communities:
+LIVERPOOL, SEVILLA, MANCHESTER CITY, BARCELONA, VALENCIA. Total amount of money: 652.8
+ATALANTA, TORINO, JUVENTUS, NAPOLI. Total amount of money: 158.55
+PARMA, JUVENTUS, ROMA, GENOA, AC MILAN. Total amount of money: 173.4
+
+-----------------------------------------------------------
+The result shows very intersting information. The first Community contains 3 spanish team and 2 english teams. Those 3 spanish teams 
+This is interteing because the two english team in this community are managed by spanish directors that believes in spanish football.
+Another intresting thing is the 2 other communities, both of them contains only teams from Italy.
+The results of this communities can be explained by the following reasons: 
+1) Juventus, which is the biggest and most successfull team in Italy, buying a lot of players from Italian teams, which means they want players that are already used to the Italian league, most of them Italians.
+2) Italian teams rathar buy players from italy and not discover players from other countries. Note about it - it might be one of the reasons for the fact that italian teams consistly failed in europe in the last 10 years (beside Juventus).
+-----------------------------------------------------------
+The Club Most Significant Cliques
+
+SAMPDORIA, UDINENSE, 6, 25.4, LIVERPOOL, SOUTHAMPTON, 5, 119.9
+NAPOLI, UDINENSE, JUVENTUS, 18, 198.95, LAZIO, INTER MILAN, GENOA, 15, 62.5, GENOA, JUVENTUS, SASSUOLO, 15, 69.5, UDINENSE, ROMA, JUVENTUS, 15, 122.35,
+FIORENTINA, JUVENTUS, NAPOLI, 14, 132.0
+GENOA, JUVENTUS, AC MILAN, PARMA, 27, 69.0, GENOA, JUVENTUS, AC MILAN, ROMA, 24, 152.4, VALENCIA, MANCHESTER CITY, SEVILLA, BARCELONA, 23, 453,
+LIVERPOOL, MANCHESTER CITY, SEVILLA, BARCELONA, 19, 387.3, TORINO, JUVENTUS, ATALANTA, NAPOLI, 18, 158.55
+
+
+The Country Communities:
+Brazil, Germany, Italy, England, Spain 5038.223
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+Scotland, England, 30, 80.48, USA, England, 14, 21.7, Italy, Uruguay, 12, 18.5, Italy, Croatia, 10, 11.4, Denmark, England, 9, 23
+Italy, England, Belgium, 158, 1064.8, Italy, England, Greece, 152, 1041.39, Italy, Argentina, Spain, 132, 832.55, Italy, Serbia, Spain, 102, 717.6
+Italy, England, Spain, Germany, Brazil, 609, 5038.223
+
+Impediments: The Data we Extracted was unorganized, we needed to manually organized it and made it into data that we can work with.
+when we build the team graph we got a lot of irrelevent edges and nodes, that inserted noise to the data. we set a threshold on the edges of the graph to reduce the irrelevant edges.
+in the community extraction we got one big community based on all the cliques in the graph. information that seem not really informative.
+we filtered out cliques by thresholding the relevance of them by the amount of trabsfers occured in the clique. 
