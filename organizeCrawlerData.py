@@ -1,3 +1,8 @@
+"""
+This module provides tool to organize the data downloaded by the crawler.
+the function create_full_clean_transports_json reads the jsons downloaded
+by the crawler organized them and save the data in a pickle file named transferDataArray.p
+"""
 import json
 import os
 import cPickle as pickle
@@ -7,6 +12,11 @@ from const import *
 
 
 def add_price(transfer):
+    '''
+    @param transfer: a dictionary represent a single transfer
+    add to the dictionary transfer Type and transfer price (int)
+    removes from the dictionary priceStatus
+    '''
     price = transfer[price_Status_key]
     check_price = check_price_type(price)
     transfer[type_key] = check_price[0]
@@ -15,6 +25,12 @@ def add_price(transfer):
 
 
 def check_price_type(price):
+    '''
+    @param price: string
+    the transfer price (downloaded from the crawler) is a string , each price can be one of several formats.
+    this function convert each price string to a number in Millions of Euros.
+    @return: the type of the transaction, and the price as int in Millions of Euros.
+    '''
     price_amount = ""
     type = ""
 
@@ -52,6 +68,13 @@ def check_price_type(price):
 
 
 def get_all_crawler_transfer():
+    '''
+    this function iterates all the json files downloaded by the crawler
+    @return: it yields
+    key - which is the player name for the current transfer json
+    the current transfer json data
+    and the year of the transfer
+    '''
     for transfers_year_file_path in all_years_files_path:
         year, path = transfers_year_file_path
         with open(os.path.join(data_dir_path, path)) as file:
@@ -61,6 +84,10 @@ def get_all_crawler_transfer():
 
 
 def add_player_name_and_year(transfer_tuple):
+    '''
+    @param transfer_tuple:  player_name, transfer, year
+    @return: transfer dictionary
+    '''
     player_name, transfer, year = transfer_tuple
     transfer["playerName"] = player_name
     transfer["year"] = year
@@ -68,6 +95,10 @@ def add_player_name_and_year(transfer_tuple):
 
 
 def clean_string(transfer):
+    '''
+    @param transfer: a dictionary represent single transfer
+    turn string to upper case, removes redundant character
+    '''
     keys_of_string_value = [orig_Team_key, dest_Team_key, player_Name_key]
     for string_value_key in keys_of_string_value:
 
@@ -88,6 +119,12 @@ def clean_string(transfer):
 
 
 def add_country_and_update_teams(transfer):
+    '''
+    @param transfer: a dictionary represent single transfer
+    this function add to the transfer orig_country, dest_country
+    and change the dest and orig team string to the unique team name
+    as defined in the const page.
+    '''
     transfer[orig_country_key] = teams_dic[transfer[orig_Team_key]][1]
     transfer[orig_Team_key] = teams_dic[transfer[orig_Team_key]][0]
     transfer[dest_country_key] = teams_dic[transfer[dest_Team_key]][1]
@@ -95,9 +132,13 @@ def add_country_and_update_teams(transfer):
 
 
 
-
-
 def create_full_clean_transports_json():
+    '''
+    create_full_clean_transports_json -
+    organize json: adds year, player name field, cleans strings value, adds teams country info
+    save all new organized data in a pickle named transferDataArray.p
+    @return:
+    '''
     transport_array = []
     for transfer_tuple in get_all_crawler_transfer():
         transfer = add_player_name_and_year(transfer_tuple)

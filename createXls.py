@@ -1,9 +1,21 @@
+"""
+createXls
+this module creates an Xls file named project_data.xls which contains tables of the data.
+"""
 import xlsxwriter
 from organizeCrawlerData import create_full_clean_transports_json
 from const import *
 
 
 def get_all_lists(transfer_array):
+    '''
+    @param transfer_array:
+    iterates all transfers and creates sets of: players names, teams name, countries
+    @return: tuple of three values
+    set of all players name,
+    set of all teams name,
+    set of all countries
+    '''
     players = set()
     teams = set()
     countries = set()
@@ -19,6 +31,10 @@ def get_all_lists(transfer_array):
 
 
 def create_transaction_table():
+    '''
+    create an xls shit contains a single table,
+    a record in the table represent a single transfer.
+    '''
     worksheet = workbook.add_worksheet()
 
     # Add a bold format to use to highlight cells.
@@ -48,6 +64,12 @@ def create_transaction_table():
 
 
 def create_all_separates_tables():
+    '''
+    create an xls shit contains 3 tables,
+    players name table,
+    teams table (each record is team name, team country),
+    countries table.
+    '''
     worksheet = workbook.add_worksheet()
 
     # Add a bold format to use to highlight cells.
@@ -80,8 +102,6 @@ def create_all_separates_tables():
 
 
 if __name__ == "__main__":
-    # todo Create a func to read json array
-
     transport_array = create_full_clean_transports_json()
     workbook = xlsxwriter.Workbook('project_data.xlsx')
     create_transaction_table()

@@ -1,3 +1,11 @@
+'''
+this module contains
+const paramters, and const structs
+'''
+
+'''
+keys of single transfer dictionary / json object
+'''
 orig_Team_key = "OrigTeam"
 player_Name_key = "playerName"
 year_key = "year"
@@ -8,6 +16,11 @@ type_key = "type"
 dest_country_key = "DestCountry"
 orig_country_key = "OrigCountry"
 
+
+'''
+the following strings represents const values from the website to describe transfer price. in case the price
+does not contains numbers
+'''
 swap = "swap"
 trade = "trade"
 undisclosed = "undis"
@@ -16,9 +29,10 @@ fee = "fee"
 free = "Free"
 loan = "Loan"
 
+
+
 start_year = 2007
 number_of_seasons = 10
-
 # array of tuples each tuple is : (int: year , string: json file path contains all transferd for this year)
 all_years_files_path = []
 [all_years_files_path.append((start_year+i, "Transfers_"+str(start_year+i)+"_"+str(start_year+i+1)+".json")) for i in range(number_of_seasons)]
@@ -26,7 +40,12 @@ all_years_files_path = []
 
 data_dir_path = "crawlerData"
 
-
+'''
+team dictionary, each team name might be written in several ways in the web site.
+a key is team name (in any possible way) the value is a a tuple:
+- team formal name
+- team country
+'''
 teams_dic = {}
 
 teams_dic["KHAZAR LANKARAN"] = ("KHAZAR LANKARAN", "Azerbaijan")
