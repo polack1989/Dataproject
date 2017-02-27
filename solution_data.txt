@@ -1,6 +1,0 @@
-Solution-
-We used the clique percolation algorithm in order to extract community of teams that has exceptional relations with one another.
-we built a team graph which each node in it is a team, there is an edge in the graph for each transfer between two teams, we also added weights on the edges that represent the amount of transfers between the teams and money that was transfered between them.
-first we filtered out less relevant edges and nodes, second we extracted every max-clique from the filtered graph. after that, we filtered out the less signficant
-cliques and extracted the communities from the significant cliques only.
-Our results in the clique stage gave some interesting connections between the teams. the communities extracted from the cliques showed a clear image on the relations between the teams. we will extand the conversation on the details of the implamantaions and the analysis of the results in the expirement section.  
