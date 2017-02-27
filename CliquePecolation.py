@@ -57,6 +57,20 @@ def createGraph(transfersData, countryOrClub, transferType):
 
     return transferGraph
 
+def filterNodesNotInClique(graph, nodesInClique):
+    nodesInCliqueSet = []
+    for clique in nodesInClique:
+        for team in clique:
+            if team not in nodesInCliqueSet:
+                nodesInCliqueSet.append(team)
+    filteredGraph = graph.copy()
+    for node in graph.nodes():
+        if node not in nodesInCliqueSet:
+            filteredGraph.remove_node(node)
+    return filteredGraph
+
+
+
 #@param - groupList - clique list or community list, CliqueOrComm - indicator for clique or comm graph export
 # builds graph from nodes that are nodes in clique or in community
 def buildCliqueOrCommunityGraph(groupList, CliqueOrComm, countryOrClub):
@@ -135,9 +149,60 @@ def calcCliqueMoney(clique, transferGraph):
     return cliqueMoney
 
 
+def extractTeamInCliques(team, cliques):
+    teamInCliques = []
+    numOfTeamsInSameCliques = 0
+    for i in range(len(cliques)):
+        if team in cliques[i]:
+            teamInCliques.append(i)
+    # if len(teamInCliques) == 0:
+    #     return -1
+    return teamInCliques
+
+def isTeamInSameClique(transferTeam, indexesOfCliques,cliques):
+    for cliqueIndex in indexesOfCliques:
+        if transferTeam in cliques[cliqueIndex]:
+            return True
+    return False
+
+def calcMean(transferGraph):
+    teamTransferNumber = []
+    for team in nx.nodes(transferGraph):
+        sumTransfers = 0
+        transfers = nx.edges(transferGraph, team)
+        for transfer in transfers:
+            sumTransfers += transferGraph.get_edge_data(transfer[0], transfer[1])['weight']
+        teamTransferNumber.append(sumTransfers)
+    return sorted(teamTransferNumber)[int(len(teamTransferNumber) / 2)]
+
+
+def calcStatistics(transferGraph, cliques):
+    cliquesTeamStrengths = []
+    for clique in cliques:
+        allAndCommunityTransfer = []
+        for team in clique:
+            sumAllTransfers = 0
+            transfersInClique = 0
+            teamTransfers = nx.edges(transferGraph, team)
+            numOfTeamsInSameCliques = 0
+            for transfer in teamTransfers:
+                edgeWeight = transferGraph.get_edge_data(transfer[0], transfer[1])['weight']
+                if transfer[1] in clique:
+                    transfersInClique += edgeWeight
+                    numOfTeamsInSameCliques += 1
+                sumAllTransfers += edgeWeight
+
+            allAndCommunityTransfer.append((team, (sumAllTransfers - transfersInClique), len(teamTransfers) - numOfTeamsInSameCliques, transfersInClique, numOfTeamsInSameCliques))
+
+        cliquesTeamStrengths.append(allAndCommunityTransfer)
+    return cliquesTeamStrengths
+
+
+
 if __name__ == "__main__":
     transfersData = pickle.load(open("transferDataArray.p", "rb"))
     clubNumTransferGraph = createGraph(transfersData, CLUB, TRANSFER)
+    origtransferGraph = clubNumTransferGraph.copy()
     print("-----------------------FULL DATA GRAPH----------------------------------------------------")
     print("The number of nodes in the graph is: ", clubNumTransferGraph.number_of_nodes())
     print("The number of edges in the graph is: ", clubNumTransferGraph.number_of_edges())
@@ -165,23 +230,45 @@ if __name__ == "__main__":
         for clique in sublist:
             allStrongestCliques.append(clique[0])
 
+    nodesInCliquesGraph = filterNodesNotInClique(clubNumTransferGraph, allStrongestCliques)
+    nx.write_graphml(nodesInCliquesGraph, "filteredCountryGraph.graphml")
     #build significant clique Graph
     buildCliqueOrCommunityGraph(allStrongestCliques, CLIQUE, COUNTRY)
 
     print("----------------------------The Communities are:----------------------------------------------")
 
     # extract communities from the graph by the most significant cliques
-    communityList = list(nx.k_clique_communities(clubNumTransferGraph, 4, allStrongestCliques))
+    communityList = list(nx.k_clique_communities(clubNumTransferGraph, 3, allStrongestCliques))
     for community in communityList:
         print (community, calcCliqueMoney(community, clubNumTransferGraph))
 
+
+    print("------------------------------------statistics-----------------------------------------------------")
+
+    cliqueAfterFilter = calcStatistics(clubNumTransferGraph, allStrongestCliques)
+
+    print("means Before:", calcMean(origtransferGraph))
+    print("means After:", calcMean(clubNumTransferGraph))
+
+    print("-----------------------after filtering community ratio:-----------------------------")
+    sumAvg = 0
+    counter = 0
+    cliqueAvg = 0
+    for clique in cliqueAfterFilter:
+        print("clique: ", clique)
+        for team in clique:
+            teamCliqueAvg = team[3]/float(team[4])
+            teamnotCliqueAvg = team[1]/float(team[2])
+            sumAvg += teamCliqueAvg / teamnotCliqueAvg
+            cliqueAvg += teamCliqueAvg / teamnotCliqueAvg
+            counter += 1
+            print(team[0], teamCliqueAvg, teamnotCliqueAvg, teamCliqueAvg / teamnotCliqueAvg)
+        print("clique Average:", cliqueAvg/len(clique))
+        cliqueAvg = 0
+    print("----------AVG AFTER: ", sumAvg / float(counter), "------------------")
+
     #build community graph
     buildCliqueOrCommunityGraph(communityList, COMMUNITY, COUNTRY)
-    print("--------------------------------TWO TEAMS DATA-------------------------------------------")
 
-    # extract strong relationships between two clubs or countries
-    for nodeA, nodeB in clubNumTransferGraph.edges():
-        if clubNumTransferGraph[nodeA][nodeB]['weight'] > 5:
-            print(nodeA, nodeB, clubNumTransferGraph[nodeA][nodeB]['weight'], clubNumTransferGraph[nodeA][nodeB]['price'])
 
     nx.write_graphml(clubNumTransferGraph, "transferCountryGraph.graphml")
